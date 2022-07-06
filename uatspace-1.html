@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!--Week 1 assignment, html tags
+Assignment: Launching your UAT Space Program HTML Document Tags
+Tim Tanco
+tanco114@gmail.com-->
+<html>
+    <head>
+        <script src="code.js"></script>
+        <link href="style2.css" rel="stylesheet" type="text/css">
+        <title>
+            Tim Tanco's UATSpace Page
+        </title>
+    </head>
+    
+   <!-- the file for the photo does not show and shows a 404 not found message--> 
+    <body>
+        <!--Table tro hold UAT Space logo and header text-->
+        <table>
+            <tr>
+                <td><img src="UATspaceLogo.jpg">
+                <td>  
+                    <h1>
+                        UAT Space Program
+                  </h1>  
+                </td>
+            </tr>
+        </table>
+    
+        <!--Data Table-->
+        <!-- "data" style has color now-->
+        <table id="data" border="2" width="70%">
+            <col stle="width: 35%">
+            <col stle="width: 35%">
+            <thead>
+                <th> <!--1st coloumn-->
+                    Data Type
+                </th>
+                <th> <!--2nd coloumn-->
+                    Reading
+                </th>
+            </thead>
+            <body> <!--rows for coloumn 1st <td> is for coloumn one 2nd <td> is for 2nd coloumn-->
+                <tr id="seconds">
+                    <td>Time elasped</td>
+                    <td>15 Seconds</td>
+                </tr>
+                <tr id="latitude">
+                    <td>latitude</td>
+                    <td>0</td>
+                </tr>
+                <tr id="Longitude">
+                    <td>Longitude</td>
+                    <td>0</td>
+                </tr>    
+                <tr id="GPS_Altitude">
+                    <td>GPS Altitude</td>
+                    <td>0</td>
+                </tr>       
+                <tr id="BMP_Altitude">
+                    <td>BMP Altitude</td>
+                    <td>30383.04</td>
+                </tr>      
+                <tr id="BMP_Pressure">
+                    <td>BMP Pressure</td>
+                    <td>2.34</td>
+                </tr>
+                    <tr id="BMP_Temperature">
+                    <td>BMP Temperature</td>
+                    <td>0</td>
+                </tr>    
+                <tr id="Digital Temperature">
+                    <td>Digital Temperature</td>
+                    <td>24.12</td>
+                </tr>    
+                <tr id="CSS Temperature">
+                    <td>CSS Temperature</td>
+                    <td>25</td> 
+                </tr>      
+                <tr id="css_eC02">
+                    <td>CSS eC02</td>
+                    <td>24.12</td> 
+                </tr>     
+                <tr id="CSS_TVOC">
+                    <td>CSS TVOC</td>
+                    <td>0</td>
+                </tr>    
+                <tr id="UV">
+                    <td>UV</td>
+                    <td>0</td>  
+                </tr>    
+                <tr id="accelx">
+                    <td>Accel X:</td>
+                    <td>0.87</td>
+                </tr>    
+                <tr id="accelY">
+                    <td>Accel Y:</td>
+                    <td>*.02</td> 
+                </tr> 
+                <tr id="accelz">
+                    <td>Accel Z:</td>
+                    <td>9.61</td>
+                <tr id="magneticx">
+                    <td>Magnetic X:</td>
+                    <td>0.13</td>
+                </tr>
+                <tr id="magneticY">
+                    <td>Magnetic Y:</td>
+                    <td>0.57</td>
+                <tr id="MagneticZ">
+                    <td>Magnetic Z:</td>
+                    <td>-0.24</td> 
+                </tr>
+                <tr id="gyroX">
+                    <td>Gyro X:</td>
+                    <td>4.66</td>
+                </tr>
+                <tr id="gyroY">
+                    <td>Gyro Y:</td>
+                    <td>0.01</td>
+                </tr>
+                <tr id="gyroZ">
+                    <td>Gyro Z:</td>
+                    <td>-0.4</td>
+                </tr>
+
+            </body>
+        </table>
+     <br>
+    <!--took out countdown timer-->
+    <!--
+    For our craps game on the html side, we need:
+        1.Button to play craps
+        2.Crap Status Line
+        3.Header saying craps played here
+     
+    the story of our craps game....
+    This Story of craps comes from Star Wars. Han Solo has to figure out a way to get his Ship back from Lando. 
+    Lando has found a way to outsmart Han Solo yet again and regained ownership of the Millenium Falcon. 
+    While traveling with Chewbaca on another mission they run into a crowd playing Craps and has an Idea on on how he can get his ship back 
+    with a game of chance!
+    At least 3-4 sentences
+-->
+    <h2>Please try your hand at Craps!</h2>
+    <div id="crapsStatus">Craps Status</div><br>
+    <button onclick="playCraps();"class="button">Play Craps </button>
+
+</body>
+
+
+
+</html>

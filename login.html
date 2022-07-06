@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--Week 3 assignment, login page
+Assignment: 
+Tim Tanco
+tanco114@gmail.com-->
+<html>
+    <head>
+        <script src="loginCode.js"></script>
+        <link rel="stylesheet" href="loginStyle.css">
+        <title>
+            UATSpace Login Page
+        </title>
+    </head>
+    <body>
+        <h1> Welcome to the UATSpace Login Page</h1>
+        Please Log in below<br>
+        <br>
+        <!--login status tells you if login credentials dont work or badge number -->
+        <div id="loginStatus">Login Status</div><br>
+        <!-- never say why it failed for cyber security reasons. be vague-->
+        <br>
+        <form id="creditSubmit" onsubmit="return false">
+        <!--return false makes you take action to so something and make a decision-->
+        First Name:<input type="text" id="fName"> <br>
+        Last Name: <input type="text" id="lName"> <br>
+        Badge Number: <input type="number" id="badgeID"> <br>
+        <br>
+        <input type="submit" onclick="checkCreds();" class=".button">
+        </form>
+    </body>
+</html>
